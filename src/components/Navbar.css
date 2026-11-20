@@ -1,0 +1,58 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.announcement-banner {
+  background: linear-gradient(90deg, #16db3a, #79c92a, #c89d28, #16db3a);
+  background-size: 250% 100%;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.65rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  animation: shiftBannerColors 8s ease-in-out infinite alternate;
+}
+
+@keyframes shiftBannerColors {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem 2.5rem;
+  background-color: #0b0b0c;
+  border-bottom: 1px solid #1f1f23;
+}
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.navbar-link {
+  font-size: 0.92rem;
+  color: #a1a1aa;
+  transition: color 0.15s ease;
+}
+
+.navbar-link:hover {
+  color: #ffffff;
+}
