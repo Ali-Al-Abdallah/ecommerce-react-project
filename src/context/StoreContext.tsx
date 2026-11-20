@@ -30,7 +30,7 @@ const StoreContext = createContext<StoreContextType | undefined>(undefined);
 export function StoreProvider({ children }: { children: ReactNode }) {
   const [cart, setCart] = useState<CartItem[]>(() => {
     try {
-      const saved = localStorage.getItem("monodesk_cart");
+      const saved = localStorage.getItem("monodesk_carts");
       return saved ? JSON.parse(saved) : [];
     } catch {
       return [];
