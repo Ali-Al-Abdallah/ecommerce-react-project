@@ -72,7 +72,7 @@ npm (comes bundled with Node.js)
 
 1. Clone the Repository
 
-git clone <your-repository-url>
+git clone https://github.com/Ali-Al-Abdallah/ecommerce-react-project.git
 
 cd ecommerce-react-project
 
