@@ -72,9 +72,9 @@ npm (comes bundled with Node.js)
 
 1. Clone the Repository
 
-git clone https://github.com/<your-username>/ecommerce-react-homework.git
-cd ecommerce-react-homework
+git clone <your-repository-url>
 
+cd ecommerce-react-project
 
 2. Install Dependencies
 
