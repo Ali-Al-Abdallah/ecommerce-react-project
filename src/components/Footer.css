@@ -1,12 +1,14 @@
 .footer {
-  margin-top: 5rem;
-  padding: 2.5rem;
-  background-color: #09090a;
-  border-top: 1px solid #1f1f23;
-  color: #f5f5f5;
+  border-top: 1px solid #222226;
+  padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.75rem;
+  color: #a1a1aa;
+  font-size: 0.9rem;
 }
 
 .footer-brand p {
