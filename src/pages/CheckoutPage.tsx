@@ -231,7 +231,6 @@ export function CheckoutPage() {
               type="text"
               value={formData.fullName}
               onChange={(e) => handleFieldChange("fullName", e.target.value)}
-              placeholder="Ali Al Abdallah"
               className={errors.fullName ? "input-error" : ""}
             />
             {errors.fullName && (
@@ -302,7 +301,6 @@ export function CheckoutPage() {
                 type="text"
                 value={formData.city}
                 onChange={(e) => handleFieldChange("city", e.target.value)}
-                placeholder="Jiyeh"
                 className={errors.city ? "input-error" : ""}
               />
               {errors.city && (
